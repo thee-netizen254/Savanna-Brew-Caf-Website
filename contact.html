@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Savanna Brew Café in Westlands, Nairobi — Kenyan coffee, fresh pastries and warm hospitality.">
+  <title>Contact & Reservations | Savanna Brew Café</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img src="images/logo.svg" alt="Savanna Brew coffee cup logo">
+      <span><span class="brand-name">Savanna Brew</span><span class="brand-tag">CAFÉ · WESTLANDS</span></span>
+    </a>
+    <nav aria-label="Main navigation"><ul class="nav-list"><li><a href="index.html" class="" >Home</a></li><li><a href="about.html" class="" >About</a></li><li><a href="menu.html" class="" >Menu</a></li><li><a href="gallery.html" class="" >Gallery</a></li><li><a href="contact.html" class="active" aria-current="page">Contact</a></li></ul></nav>
+  </div>
+</header>
+<main>
+  <section class="page-banner"><div class="container"><span class="eyebrow">We would love to hear from you</span><h1>Contact & Reservations</h1><p>Ask us a question or tell us when you would like to visit.</p></div></section>
+  <section class="section container contact-layout">
+    <div>
+      <form class="reservation-form" action="#" method="get">
+        <h2>Reserve a Table</h2>
+        <p class="small-note">Complete the form below. Required fields are marked by your browser.</p>
+        <div class="form-grid">
+          <div class="form-field"><label for="name">Full Name *</label><input type="text" id="name" name="name" autocomplete="name" required></div>
+          <div class="form-field"><label for="email">Email Address *</label><input type="email" id="email" name="email" autocomplete="email" required></div>
+          <div class="form-field"><label for="phone">Phone Number</label><input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+254..."></div>
+          <div class="form-field"><label for="guests">Number of Guests</label><select id="guests" name="guests"><option value="1">1 guest</option><option value="2" selected>2 guests</option><option value="3">3 guests</option><option value="4">4 guests</option><option value="5">5 guests</option><option value="6">6 guests</option><option value="7">7 guests</option><option value="8">8 guests</option><option value="9">9 guests</option><option value="10">10 guests</option></select></div>
+          <div class="form-field"><label for="date">Reservation Date *</label><input type="date" id="date" name="date" required></div>
+          <div class="form-field"><label for="time">Reservation Time *</label><input type="time" id="time" name="time" required></div>
+          <div class="form-field full"><fieldset><legend>Occasion</legend><div class="radio-row">
+            <label><input type="radio" name="occasion" value="Casual" checked> Casual</label>
+            <label><input type="radio" name="occasion" value="Birthday"> Birthday</label>
+            <label><input type="radio" name="occasion" value="Business"> Business</label>
+          </div></fieldset></div>
+          <div class="form-field full"><label for="requests">Special Requests</label><textarea id="requests" name="requests" rows="4" placeholder="Let us know if you have any special requests..."></textarea></div>
+        </div>
+        <button class="button" type="submit">Submit Reservation Request</button>
+        <p class="small-note">Demo form: HTML/CSS alone cannot send or store bookings. A server-side form handler is needed for live reservations.</p>
+      </form>
+    </div>
+    <aside>
+      <section class="info-card"><h2>Visit the Café</h2><p><strong>Address:</strong><br>14 Coffee Lane, Westlands, Nairobi</p><p><strong>Phone:</strong> <a href="tel:+254700123456">+254 700 123 456</a></p><p><strong>Email:</strong> <a href="mailto:hello@savannabrew.example">hello@savannabrew.example</a></p><p><a href="https://www.google.com/maps/search/?api=1&query=Westlands%2C+Nairobi" target="_blank" rel="noopener noreferrer">Find Westlands on Google Maps ↗</a></p></section>
+      <section class="info-card"><h3>Opening Hours</h3><table class="hours-table"><tbody>
+        <tr><td>Monday to Friday</td><td>7:00 AM – 9:00 PM</td></tr><tr><td>Saturday</td><td>8:00 AM – 10:00 PM</td></tr><tr><td>Sunday</td><td>9:00 AM – 6:00 PM</td></tr>
+      </tbody></table></section>
+    </aside>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <section><h3>Find Us</h3><p>14 Coffee Lane,<br>Westlands, Nairobi</p><p><a href="tel:+254700123456">+254 700 123 456</a></p></section>
+      <section><h3>Opening Hours</h3><p>Mon–Fri: 7:00 AM – 9:00 PM<br>Saturday: 8:00 AM – 10:00 PM<br>Sunday: 9:00 AM – 6:00 PM</p></section>
+      <section><h3>Follow Along</h3><p><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram @savannabrew</a></p><p><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook /savannabrewcafe</a></p></section>
+    </div>
+    <div class="footer-bottom">© 2026 Savanna Brew Café. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>
